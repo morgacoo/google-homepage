@@ -94,16 +94,50 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  font: arial, sans-serif;
+  color: grey;
+}
+
+main {
+  height: 600px;
+}
+
+header {
+  width: 100%;
+}
+
 nav {
   display: inline;
   float: right;
+  margin-bottom: 150px;
+
+}
+
+nav ul {
+  list-style: none;
+  float: left;
+  padding: 0 20px;
+  margin-left: 20px;
+
+}
+
+nav ul li {
+  display: inline;
+  font-size: .8em;
+  padding-left: 10px;
+  color: black;
+}
+
+a {
+  text-transform: none; 
 }
 
 .google {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  clear: both;
 }
 
 .search-bar {
@@ -118,12 +152,46 @@ nav {
   align-items: center;
 }
 
+.btn {
+  background-color: lightgrey;
+  text-transform: none;
+  padding: 5px;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+#google-search-btn {
+  margin-right: 5px;
+
+}
+
 ul {
   display: inline;
+  list-style: none;
+
+}
+
+footer {
+  background-color: lightgrey;
+  margin-bottom: -10px;
 }
 
 
+footer ul li {
+  display: inline;
+  text-transform: none;
+  font: arial;
+  padding: 45px 0;
+}
 
+footer ul li a {
+  padding: 25px 15px;
+}
+
+
+#about {
+  padding-right: 50%;
+}
 
 
 

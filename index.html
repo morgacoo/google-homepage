@@ -10,6 +10,11 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
+        <!--FONTS-->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+
+
+
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -23,10 +28,11 @@
         <header>
           <nav>
             <ul>
-                <li>Gmail</li>
-                <li>Images</li>
-                <li><img src='#' alt='squares'/></li>
-                <li><img src='#' alt='initial'/></li>
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Images</a></li>
+                <li><a href='#'><i class="fa fa-google-plus fa-lg" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-bell fa-lg" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-user-circle fa-lg" aria-hidden="true"></i></a></li>
             </ul>
           </nav>
         </header>
@@ -42,10 +48,8 @@
           </div><!--Search bar-->
 
           <div class="search-buttons">
-              <ul>
-                <li><a href = "#" class='btn'>Google Search</a></li>
-                <li><a href='#' class='btn'>I'm Feeling Lucky</a></li>
-            </ul>
+              <a href ='#' class='btn' id='google-search-btn'>Google Search</a>
+              <a href='#' class='btn' id="lucky-btn">I'm Feeling Lucky</a>
           </div>
 
         </main>
@@ -54,7 +58,7 @@
           <ul>
               <li><a href="#">Advertsing</a></li>
               <li><a href="#">Business</a></li>
-              <li><a href="#">About</a></li>
+              <li><a href="#" id="about">About</a></li>
               <li><a href="#">Privacy</a></li>
               <li><a href="#">Terms</a></li>
               <li><a href="#">Settings</a></li>
